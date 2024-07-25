@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+
+#Asks the user for the current age
+age_1 = int(input("How old are you?"))
+
+# Calculate age in 2050 :
+
+age_2050 = age_1 + 27
+
+#Printing the final result
+print(f"In 2050, you will be {age_2050} years old.")
+
+# Now we want to apply our for and while loop concepts to this project/
+#Let's do this !
+
+""" Certainly! Let's create a challenge that incorporates both while and for loops based on the concept of calculating ages. This challenge will ask the user for the current year and their birth year, then calculate and display their age at the end of each decade from now until 2100.
+
+Challenge Description
+Create a program that does the following:
+
+Asks the user for the current year and their birth year.
+Calculates the user's age at the end of each decade starting from the next decade until the year 2100.
+Prints out the user's age at the end of each of these decades."""
+
+# Get the user current year and birth year 
+
+current_year = int(input("What is the current year?"))
+birth_year = int(input("What is your bith year?"))
+
+# Determine the user current age
+age = current_year - birth_year
+
+#Determine the next decade
+next_decade =((current_year//10)+1)*10)
+
+while next_decade <= 2100 :
+    age_at_decade = next_decade - birth_year
+    print(f"In {next_decade}, you will be {age_at_decade} years old.")
+    next_decade += 10
