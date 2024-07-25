@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-lenght= 10
+length= 10
 width= 5
 
 area = length * width
