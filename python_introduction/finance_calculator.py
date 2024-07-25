@@ -9,12 +9,12 @@ month_expenses = float(input("Enter your total monthly expenses: "))
 month_sav = month_income - month_expenses
 
 #Project ANNUAL savings
+in_rate = 0.05
 
-pject_saviings = ((month_sav*12)+ month_sav*12*0.05)
+pject_saviings = (month_sav*12 +(month_sav*12*in_rate))
 
 #Display results
 
-print (f"Your monthly savings are ${month_sav}.")
-print(f"Projected savings after one year, with interest, is:${pject_saviings}")
-
+print (f"Your monthly savings are ${round(month_sav}:,.0f}")
+print(f"Projected savings after one year, with interest, is:${round(pject_saviings):,.0f}")
 
