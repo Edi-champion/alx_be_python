@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 
-month_income = float(input("Enter your monthly income"))
-month_expenses = float(input("Enter your total monthly expenses"))
+month_income = float(input("Enter your monthly income: "))
+month_expenses = float(input("Enter your total monthly expenses: "))
 
 #Calculate monthly Savings
 
