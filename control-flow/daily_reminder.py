@@ -1,7 +1,7 @@
 #/usr/bin/python3
 
 task = input("Enter your task: ")
-priority =  input(" Priority (high/medium/low): ")
+priority = input(" Priority (high/medium/low): ")
 tim-bound = input("Is it time-bound? (yes/no): ")
 
 match case priority :
