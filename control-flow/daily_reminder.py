@@ -1,8 +1,8 @@
 #/usr/bin/python3
 
 task = input("Enter your task: ")
-priority=  input(" Priority (high/medium/low): ")
-tim-bound= input("Is it time-bound? (yes/no): ")
+priority =  input(" Priority (high/medium/low): ")
+tim-bound = input("Is it time-bound? (yes/no): ")
 
 match case priority :
     case "high":
@@ -20,4 +20,5 @@ match case priority :
             print("'task' is a low priority task that requires immediate attention today!")
         else :
             print("'task' is a low priority task. Consider completing it when you have free time.")
-
+    case_:
+        print("Please select the right priority level. ")
