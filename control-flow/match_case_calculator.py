@@ -11,19 +11,19 @@ operation = input("Choose the operation (+, -, *, /): ")
 match operation :
     case "+" :
         summ = num1 + num2
-        print("{} + {} = {}" .format(num1, num2, summ))
+        print("The result is {} + {} = {}" .format(num1, num2, summ))
     case "-" :
         dif = num1 - num2 
-        print("{} - {} = {}".format(num1, num2, dif))
+        print("The result is {} - {} = {}".format(num1, num2, dif))
     case "*" :
         product = num1 * num2
-        print ("{} * {} = {}" .format(num1, num2, product))
+        print ("The result is {} * {} = {}" .format(num1, num2, product))
     case "/": 
         if num2 == 0:
             print ("Cannot divide by 0")
         else :
             div = num1 / num2 :
 
-            print ("{} / {} = {}" .format(num1, num2, div))
+            print ("The result is {} / {} = {}" .format(num1, num2, div))
     case_:
         print("Invalid operation")
