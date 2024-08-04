@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def perform_operation(num1, num2, operation):
+""" def perform_operation(num1, num2, operation):
     print("Arithmetic Operations")
     num1=float(input("Enter the first number: "))
     num2=float(input("Enter the second number: "))
@@ -23,9 +23,26 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num2==0
                 print("Cannot divide by 0, choose another number : ")
-                return
 
-           # else :
+            else :
              result=num1 / num2
-             print(f"Result: {}")
+             print(f"Result: {}")"""
 
+def arithmetic_operations(num1, num2, operation):
+    if operation == "add":
+        result = num1 + num2
+    if operation == "subtract":
+        result = num1 - num2
+    if operation == "multiply":
+        result = num1 * num2
+    if operation == "divide":
+        if num2 == 0:
+            print("Cannot divide by 0, choose another number.")
+            return
+        result = num1 / num2
+    else:
+        if operation not in ["add", "subtract", "multiply", "divide"]:
+            print("Invalid operation.")
+            return
+    
+    print(f"Result: {result}")
