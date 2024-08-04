@@ -15,7 +15,7 @@ def perform_operation(num1, num2, operation):
             result= num1 + num2
             print(f"Result: {result}")
         case "subtract":
-            result= num1-numé
+            result= num1 - num2
             print(f"Result: {}")
         case "multiply":
             result= num1*num2
