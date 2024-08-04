@@ -31,9 +31,10 @@ def view_list (shopping_list):
             print(f"- {item}")
 
 if __name__ == "__main__":
+    shopping_list = []
 
 def main():
-    shopping_list = []
+
 while True :
     display_menu()
     choice = input("Choose an option (1, 2, 3, 4): ").strip()
