@@ -1,24 +1,21 @@
 #!/usr/bin/python3
-
 #!/usr/bin/python3
 
 # Define global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 FREEZING_POINT_CELSIUS = 32
 
 def convert_to_celsius(fahrenheit):
     """
     Convert temperature from Fahrenheit to Celsius using the global conversion factor.
     """
-    # Convert Fahrenheit to Celsius
     return (fahrenheit - FREEZING_POINT_CELSIUS) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
     Convert temperature from Celsius to Fahrenheit using the global conversion factor.
     """
-    # Convert Celsius to Fahrenheit
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FREEZING_POINT_CELSIUS
 
 def main():
