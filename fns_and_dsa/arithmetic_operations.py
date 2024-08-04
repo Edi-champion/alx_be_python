@@ -35,14 +35,10 @@ def arithmetic_operations(num1, num2, operation):
         result = num1 - num2
     if operation == "multiply":
         result = num1 * num2
-    if operation == "divide":
+    elif operation == "divide":
         if num2 == 0:
             print("Cannot divide by 0, choose another number.")
             return
         result = num1 / num2
-    else:
-        if operation not in ["add", "subtract", "multiply", "divide"]:
-            print("Invalid operation.")
-            return
-    
-    print(f"Result: {result}")
+        print(f"Result: {result}")
+
