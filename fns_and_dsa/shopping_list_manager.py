@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def menu ():
+def display_menu ():
     print("\nShopping List Manger")
     print("1. Add Item")
     print("2. Remove Item")
@@ -33,7 +33,7 @@ def view_list (shopping_list):
 def main():
     shopping_list = []
 while True :
-    menu()
+    display_menu()
     choice = input("Choose an option (1, 2, 3, 4): ").strip()
     if choice == "1":
         add_item (shopping_list)
