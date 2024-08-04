@@ -30,6 +30,8 @@ def view_list (shopping_list):
         for item in shopping_list :
             print(f"- {item}")
 
+if __name__ == "__main__":
+
 def main():
     shopping_list = []
 while True :
