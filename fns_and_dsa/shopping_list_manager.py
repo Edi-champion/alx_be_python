@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def display_menu ():
+def display_menu():
     print("\nShopping List Manger")
     print("1. Add Item")
     print("2. Remove Item")
